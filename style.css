@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'Genos', sans-serif;
+}
+body{
+    background-color: rgb(239, 225, 225);
+    margin-left: 350px;
+    margin-right: 100px;
+    margin-top: 20px;
+
+}
+header{
+    margin-top: 25px;
+}
+main{
+    width: 800px;
+    height: 500px; 
+    border-radius: 10px;
+    background-image:url("../assets/restaurant.png");
+    background-size: cover;
+    background-attachment: cover;
+    margin-top: 10px;
+}
+.Logo{
+    margin-top: 24px;
+    text-size-adjust: 100px;
+}
+nav{
+    display: flex;
+    text-indent: 90px;
+
+}
+/* nav ul{
+    text-indent: 100px;
+} */
+a{
+    text-decoration: none;
+    color: rgb(237, 25, 14);
+}
+nav ul li{
+    display: contents;
+}
+h2{
+    text-align: center;
+    margin-top: 80px;
+    color:rgb(210, 24, 24);
+    text-size-adjust: 100px;
+    font-size: 60px;
+    line-height: 60px;
+    font-family: 'Anton', sans-serif;
+    
+}
+button:hover{
+    background-color: aqua;
+    color: rgb(220, 73, 20);
+}
+button{
+    cursor: pointer;
+    background-color: rgb(239, 210, 18);
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin-left: 300px;
+    margin-top: 20px;
+    
+}
+.right{
+    height: 25px;
+    width: 90px;
+    margin-left: 150px;
+    margin-top: 20px;
+    border: none;
+}
+.last-image{
+    margin-left: 700px;
+    margin-top: 45px;
+}
+.Github{
+    margin-top: 20px;
+}
+
+
+
